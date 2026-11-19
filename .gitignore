@@ -1,0 +1,18 @@
+# virtual environment
+.venv/
+venv/
+
+# ไฟล์ฐานข้อมูลที่สร้างขึ้นโดย DuckDB
+*.duckdb
+*.duckdb.wal
+
+# สิ่งที่สร้างขึ้นโดย dbt
+target/
+logs/
+dbt_packages/
+.user.yml
+
+# python/Os
+__pycache__/
+*.pyc
+.DS_Store
